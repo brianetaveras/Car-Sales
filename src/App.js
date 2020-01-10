@@ -8,6 +8,7 @@ import Total from './components/Total';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import featureReducer from './reducers/featuresReducer';
+import {addFeature} from './actions/actions'
 
 const App = () => {
   
